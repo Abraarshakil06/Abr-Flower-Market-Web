@@ -144,6 +144,35 @@ main{
   font-weight: 600;
   cursor: pointer;
 }
+
+/* Lover Plants Section */
+
+.lover{
+  
+  display: flex;
+  gap: 60px;
+  margin-top: 210px;
+}
+/* .lover-text{
+  width: 540px;
+  height: 520px;
+} */
+.lover-title{
+  font-size: 50px;
+  font-weight: 700;
+}
+.li-1{
+  margin-bottom: 20px;
+}
+
+.lover-description{
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.lover img{
+  width: 100%;
+}
 @media screen and (max-width:576px) {
  
   
@@ -210,5 +239,30 @@ main{
 .card img{
   width: 80%;
 }
+/* lover-section */
+.lover{
+  flex-direction: column;
+  margin-top: 42px;
+  margin-bottom: 18px;
+}
+.lover-title{
+  font-size: 24px;
+  font-weight: 700;
+ 
+}
+.lover img{
+  margin-bottom: 18px;
+}
+/* .lover-text{
+  margin-top: 18px;
+} */
+.lover-description{
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+
+
 
 }
