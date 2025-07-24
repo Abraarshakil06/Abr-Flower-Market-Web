@@ -10,7 +10,11 @@
   font-style: normal;
   
 }
-
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
 /* shared styles */
 .display-flex{
@@ -72,13 +76,74 @@
   margin-top: 13px;
 }
 
+/* Main Sction Style Start */
+/* Oyr Plants Section */
 
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.plants-text{
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 49px;
+}
 
+.plants-title{
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+#our{
+  color: #E95A08;
+}
+.plants-description{
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.product-grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.card{
+  
+  margin-right: 20px;
+}
+
+.price, .card h3, .card-button{
+  
+  text-align: center;
+}
+.price{
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.card h3{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.card-button{
+  width: 270px;
+  /* height: 50px */
+  padding:19px 80px ;
+  background-color: #E95A08;
+  color: white;
+  border: none;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
 @media screen and (max-width:576px) {
   .nav-link{
      display: none;
   }
   .navbar{
+    /* flex-wrap: wrap; */
     margin-left: 16px;
   }
   .cart{
@@ -102,5 +167,23 @@
   font-size: 14px;
   font-weight: 400;
 }
+.product-grid{
+  grid-template-columns: repeat(2,1fr);
+  
+}
+/* .card{
+  width: 100%;
+} */
+.plants-title{
+  font-size: 24px;
+  font-weight: 700;
+}
+.plants-description{
+  font-size: 14px;
+  font-weight: 400;
+}
+body {
+      overflow-x: hidden;
 
+}
 }
