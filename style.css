@@ -173,6 +173,38 @@ main{
 .lover img{
   width: 100%;
 }
+
+
+/* deals section */
+
+.deals-text{
+  align-items: center;
+  text-align: center;
+  margin-top: 133px;
+}
+.deals-title{
+  font-size: 50px;
+  font-weight: 700;
+}
+.deals-description{
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#latest{
+  color: #E95A08;
+}
+
+.promo-text{background-image: url('./assets/deal-ana.png');}
+
+
+/* .promo-card-1,.promo-card-2, .promo-card-3{
+  width: 100%;
+  
+} */
+
+
+
 @media screen and (max-width:576px) {
  
   
